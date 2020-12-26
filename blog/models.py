@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from django.db.models.fields.related import create_many_to_many_intermediary_model
+from django.shortcuts import redirect
 from django.utils import timezone
 
 
