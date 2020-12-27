@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangoblog',
-        'USER': 'name',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'postgresql-contoured-41945',
+        'USER': 'phcowllyjwblrl',
+        'PASSWORD': '4548b8df92b02e2325b0534ad9e9e3d2e1014ea523dc23aec961177ad9c9659f',
+        'HOST': 'ec2-35-168-77-215.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -133,8 +133,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 # Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
